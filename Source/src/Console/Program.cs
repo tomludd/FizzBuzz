@@ -10,7 +10,8 @@ namespace Consol
     {
         public static void Main(string[] args)
         {
-            IFizzBuzzService fizzBuzzService = new FizzBuzzService();
+            //IFizzBuzzService fizzBuzzService = new FizzBuzzService(FizzBuzzService.Rules.FizzBuzzPopWhackZingChop);
+            IFizzBuzzService fizzBuzzService = new FizzBuzzService(FizzBuzzService.Rules.FizzBuzz);
 
             foreach (var result in fizzBuzzService.GetFizzBuzz(100))
             {

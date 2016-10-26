@@ -8,16 +8,16 @@ using Shared;
 namespace Web.Controllers
 {
     [Route("api/[controller]")]
-    public class ValuesController : Controller
+    public class FizzBuzzServiceController : Controller
     {
         private readonly IFizzBuzzService FizzBuzzService;
 
-        public ValuesController(IFizzBuzzService _fizzBuzzService)
+        public FizzBuzzServiceController(IFizzBuzzService _fizzBuzzService)
         {
             FizzBuzzService = _fizzBuzzService;
         }
         
-        // GET api/values/5
+        // GET api/fizzbuzzservice/100
         [HttpGet("{count}")]
         public IEnumerable<string> Get(int count)
         {
