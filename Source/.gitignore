@@ -1,0 +1,56 @@
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+test/Shared.Tests/bin/Debug/netcoreapp1.0/Shared.dll
+test/Shared.Tests/bin/Debug/netcoreapp1.0/Shared.Tests.deps.json
+/src/Console/bin/Debug/netcoreapp1.0
+/test/Shared.Tests/bin/Debug/netcoreapp1.0
+/src/Web/bin/Debug/netcoreapp1.0
+/src/Shared/bin/Debug/netstandard1.6
+/src/Shared/obj/Debug/netstandard1.6
+/src/Web/obj/Debug/netcoreapp1.0
+/test/Shared.Tests/obj/Debug/netcoreapp1.0
