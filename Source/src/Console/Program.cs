@@ -10,14 +10,7 @@ namespace Consol
     {
         public static void Main(string[] args)
         {
-            //IFizzBuzzService fizzBuzzService = new FizzBuzzService(FizzBuzzService.Rules.FizzBuzzPopWhackZingChop);
-            IFizzBuzzService fizzBuzzService = new FizzBuzzService(FizzBuzzService.Rules.FizzBuzz);
-
-            foreach (var result in fizzBuzzService.GetFizzBuzz(100))
-            {
-                Console.WriteLine(result);
-            }
-
+            Console.WriteLine(Enumerable.Range(1, 100).Aggregate("", (workingSentence, next) => workingSentence += $"\n{(next % 15 == 0 ? "FizzBuzz" : next % 5 == 0 ? "Buzz" : next % 3 == 0 ? "Fizz" : next.ToString())}"));
             Console.ReadLine();
         }
     }
