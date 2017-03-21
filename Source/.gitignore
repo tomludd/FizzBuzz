@@ -45,12 +45,11 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
-test/Shared.Tests/bin/Debug/netcoreapp1.0/Shared.dll
-test/Shared.Tests/bin/Debug/netcoreapp1.0/Shared.Tests.deps.json
-/src/Console/bin/Debug/netcoreapp1.0
-/test/Shared.Tests/bin/Debug/netcoreapp1.0
-/src/Web/bin/Debug/netcoreapp1.0
-/src/Shared/bin/Debug/netstandard1.6
-/src/Shared/obj/Debug/netstandard1.6
-/src/Web/obj/Debug/netcoreapp1.0
-/test/Shared.Tests/obj/Debug/netcoreapp1.0
+
+#VS TemporaryFolders
+*.csproj.user
+.vs/
+packages/
+/*/bin/**
+/*/obj/**
+
